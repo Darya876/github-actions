@@ -1,8 +1,8 @@
 name: hello-world
 on: push
 jobs:
-  build:
+  print-hello-world:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: ls -la
+      - Print to console
+      - run: echo Hello, world!
