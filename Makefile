@@ -1,2 +1,2 @@
 make say-hello:
-	node index.js
+	echo 'Hello, World!'
